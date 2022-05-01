@@ -1,0 +1,247 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #000000;
+    /* background: #2f0a7e;
+background: linear-gradient(180deg,#2f0a7e 20%, #0e0d0d 80%);
+background: -webkit-linear-gradient(180deg,#2f0a7e 20%, #0e0d0d 80%);
+background: -moz-linear-gradient(180deg,#2f0a7e 20%, #0e0d0d 80%); */
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.navds{
+    float: right;
+    margin-top: 40px;
+    margin-left: -290px;
+    margin-right: 0px;
+}
+
+body{
+    background-image: url(../img/backblack.jpg);
+    background-size: cover;
+}
+
+.call{
+    float: left;
+    height: auto;
+    width: 60%;
+    color: aliceblue;
+    margin: 430px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 18px;
+}  
+
+.call h1{
+    color: rgb(254, 137, 12);
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.call p{
+    margin-bottom: 30px;
+}
+
+.call a{
+    color: rgb(255, 170, 0);
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 15px ;
+    border-radius: 7px;
+    border: 3px solid white;
+}
+
+.call a:hover{
+    background-color: rgb(255, 126, 6);
+    color: aliceblue;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+
+    float: left;
+    margin-bottom: 20px;
+}
+
+.itt{
+    color: aliceblue;
+    margin-left: 0%;
+    margin-top: 0px;
+}
+
+.nav{
+    float: right;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav a:hover{
+    color: orange;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+main{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/backblack.jpg);
+    background-size: auto;
+}
+/* no me funciona 
+.linkActive{
+    color: rgb(45, 233, 57);
+} */
+
+
+.frio{
+    /* height: 80px;
+    width: 180px;
+    /* margin: auto; */
+    margin-top: -250px;
+    border-radius: 50%;
+    /* padding: 10%; */
+    /* background-size: cover; */
+    margin-left: 1205px;
+    
+    box-shadow: 0 0 40px rgb(239, 124, 0);
+}
+
+.DesignBox{
+    background-color: orange;
+    width: 420px;
+    height: 60px;
+    border-radius: 80px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.h1D{
+    color: rgba(255, 255, 255, 0.722);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 20px violet;
+    
+    
+}
+
+.sectionN{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.proyecto1{
+    width: 600px;
+    height: 600px;
+    margin-left: 10%;
+    margin-top: 1%;
+    list-style: none;
+}
+
+.titulo1{
+    color: aliceblue;
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 15%;
+
+}
+
+.proyecto2{
+    margin-top: 1%;
+    width: 600px;
+    height: 800;
+    margin-left: 60%;
+}
+
+.titulo2{
+    color: aliceblue;
+    font-size: 50px;
+    padding-top: 1%;
+    padding-left: 60%;
+
+}
+
+.proyecto3{
+    width: 600px;
+    height: 600px;
+    margin-left: 10%;
+    margin-top: 1%;
+    list-style: none;
+}
+
+.titulo3{
+    color: aliceblue;
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 15%;
+
+}
+
+.subir{
+    height: 40px;
+    width:  40px;
+    background-color: orange;
+    border: 5px;
+    color: black;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+
+
+.subir i{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.subir i:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+#pie{
+    background-color: #000000;
+}
+
+.ft{
+    color: aliceblue;
+}
+

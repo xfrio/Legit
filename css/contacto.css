@@ -1,0 +1,560 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #000000;
+    /* background: #2f0a7e;
+background: linear-gradient(180deg,#2f0a7e 20%, #0e0d0d 80%);
+background: -webkit-linear-gradient(180deg,#2f0a7e 20%, #0e0d0d 80%);
+background: -moz-linear-gradient(180deg,#2f0a7e 20%, #0e0d0d 80%); */
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.navds{
+    float: right;
+    margin-top: 40px;
+    margin-left: -290px;
+    margin-right: 0px;
+}
+
+body{
+    background-image: url(../img/backblack.jpg);
+    background-size: cover;
+}
+
+.call{
+    float: left;
+    height: auto;
+    width: 60%;
+    color: aliceblue;
+    margin: 430px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 18px;
+}  
+
+.call h1{
+    color: rgb(254, 137, 12);
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.call p{
+    margin-bottom: 30px;
+}
+
+.call a{
+    color: rgb(255, 170, 0);
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 15px ;
+    border-radius: 7px;
+    border: 3px solid white;
+}
+
+.call a:hover{
+    background-color: rgb(255, 126, 6);
+    color: aliceblue;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+
+    float: left;
+    margin-bottom: 20px;
+}
+
+.itt{
+    color: aliceblue;
+    margin-left: -50%;
+    margin-top: 0px;
+}
+
+.nav{
+    float: right;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav a:hover{
+    color: orange;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+main{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/backblack.jpg);
+    background-size: auto;
+}
+/* no me funciona 
+.linkActive{
+    color: rgb(45, 233, 57);
+} */
+
+
+
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-shadow: 0 0 10px rgb(255, 183, 0); */
+}
+
+.boxtel{
+    background-color: rgb(255, 157, 0);
+    width: 100%;
+    margin-left: 12%;
+    margin-top: 2%;
+    border-radius: 7px;
+    border: 4px #0e0d0d;
+
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+#tl{
+    font-size: 40px;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.info{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.boxmail{
+    background-color: rgb(255, 157, 0);
+    width: 150%;
+    margin-left: -18%;
+    margin-top: 2%;
+    border-radius: 7px;
+    border: 4px #0e0d0d;
+}
+
+.mailmail{
+    margin-left: 30%;
+}
+
+#ma{
+    font-size: 40px;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.boxig{
+    background-color: rgb(255, 157, 0);
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 7px;
+    border: 4px #0e0d0d;
+}
+
+.ig{
+    margin-top: -0.6%;
+}
+
+#igg{
+    font-size: 40px;
+    margin-left: 50%;
+    margin-top: 4%;
+}
+
+#iglink{
+    text-decoration: none;
+    list-style: none;
+
+    
+}
+
+#foto2{
+    margin-top: 150px;
+    border-radius: 50%;
+    /* padding: 10%; */
+    /* background-size: cover; */
+    margin-left: 690px;
+    width: 20%;
+    
+    box-shadow: 0 0 40px rgb(255, 157, 0);
+}
+
+.bkvi{
+    margin-left: 60%;
+    margin-top: 10%;
+    background-color: #000000;
+    border-radius: 7px;
+}
+
+h3{
+    color: rgb(255, 157, 0);
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+.video1{
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+}
+
+.bordevideo{
+    background-color: #ffffff;
+    width: 50%;
+    margin-left: 60%;
+    border-radius: 10px;
+}
+
+.subir{
+    height: 40px;
+    width:  40px;
+    background-color: rgb(255, 157, 0);
+    border: 5px;
+    color: black;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(200, 200, 200);
+}
+
+
+
+.subir i{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.subir i:hover{
+    color: rgb(9, 10, 10);
+    
+}
+
+#pie{
+    background-color: #000000;
+}
+
+.ft{
+    color: aliceblue;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 499px)
+{ 
+    header{
+        height: 100px;
+        width: 100%;
+        background-color: #000000;
+        /* background: #2f0a7e;
+    background: linear-gradient(180deg,#2f0a7e 20%, #0e0d0d 80%);
+    background: -webkit-linear-gradient(180deg,#2f0a7e 20%, #0e0d0d 80%);
+    background: -moz-linear-gradient(180deg,#2f0a7e 20%, #0e0d0d 80%); */
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: uppercase;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    body{
+        background-image: url(../img/backblack.jpg);
+        background-size: cover;
+    }
+    
+    .call{
+        float: left;
+        height: auto;
+        width: 60%;
+        color: aliceblue;
+        margin: 430px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 18px;
+    }  
+    
+    .call h1{
+        color: rgb(254, 137, 12);
+        margin-bottom: 20px;
+        margin-top: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .call p{
+        margin-bottom: 30px;
+    }
+    
+    .call a{
+        color: rgb(255, 170, 0);
+        text-decoration: none;
+        background-color: rgb(0, 0, 0);
+        padding: 10px 15px ;
+        border-radius: 7px;
+        border: 3px solid white;
+    }
+    
+    .call a:hover{
+        background-color: rgb(255, 126, 6);
+        color: aliceblue;
+    }
+    
+    .logo{
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    
+    .itt{
+        color: aliceblue;
+        margin-left: -90%;
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    
+    .nav{
+        float: right;
+        margin-top: -90px;
+    }
+    
+    .nav ul{
+        list-style: none;
+    }
+    
+    .nav ul li{
+        display: inline-block;
+    }
+    
+    .nav a:hover{
+        color: orange;
+    }
+    
+    .nav a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin-right: 10px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+    
+    
+    
+    main{
+        height: 100%;
+        width: 100%;
+        background-image: url(img/backblack.jpg);
+        background-size: auto;
+    }
+    /* no me funciona 
+    .linkActive{
+        color: rgb(45, 233, 57);
+    } */
+    
+    
+    
+    
+    h1{
+        color: rgb(255, 255, 255);
+        text-align: left;
+        font-size: 20px;
+        margin-top: 10%;
+        margin-left: 180%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        /* text-shadow: 0 0 10px rgb(255, 183, 0); */
+    }
+    
+    .boxtel{
+        background-color: rgb(255, 157, 0);
+        width: 100%;
+        margin-left: 172%;
+        margin-top: 2%;
+        border-radius: 7px;
+        border: 4px #0e0d0d;
+    
+    }
+    
+    p{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #tl{
+        font-size: 40px;
+        margin-left: 204%;
+        margin-top: 5%;
+    }
+    
+    .info{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        margin-top: 10%;
+    }
+    
+    .maildiv{
+        margin-top: 130px;
+    }
+
+    .boxmail{
+        background-color: rgb(255, 157, 0);
+        width: 100%;
+        margin-left: 6%;
+        margin-top: 2%;
+        border-radius: 7px;
+        border: 4px #0e0d0d;
+    }
+    
+    .mailmail{
+        margin-left: 45%;
+    }
+    
+    #ma{
+        font-size: 40px;
+        margin-left: 45%;
+        margin-top: 5%;
+    }
+    
+    .boxig{
+        background-color: rgb(255, 157, 0);
+        width: 100%;
+        margin-left: -127%;
+        margin-top: 2%;
+        border-radius: 7px;
+        border: 4px #0e0d0d;
+    }
+    
+    .ig{
+        margin-top: 90%;
+        
+    }
+
+    .h1ig{
+        margin-left: -145px;
+    }
+    
+    #igg{
+        font-size: 40px;
+        margin-left: -90%;
+        margin-top: 4%;
+    }
+    
+    #iglink{
+        text-decoration: none;
+        list-style: none;
+    
+        
+    }
+   
+    
+    .bkvi{
+        margin-left: 4%;
+        margin-top: 10%;
+        background-color: #000000;
+        border-radius: 7px;
+    }
+    
+    h3{
+        color: rgb(255, 157, 0);
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    .video1{
+        margin-left: 33%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        width: 120px;
+        height: 120px;
+        
+    }
+    
+    
+    .subir{
+        height: 40px;
+        width:  40px;
+        background-color: rgb(255, 157, 0);
+        border: 5px;
+        color: black;
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+        text-align: center;
+        line-height: 10px;
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgb(200, 200, 200);
+    }
+    
+    
+    
+    .subir i{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .subir i:hover{
+        color: rgb(9, 10, 10);
+        
+    }
+    
+    #pie{
+        background-color: #000000;
+    }
+    
+    .ft{
+        color: aliceblue;
+    }
+
+}
